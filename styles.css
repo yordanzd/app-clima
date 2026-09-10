@@ -1,0 +1,48 @@
+:root {
+    --fondo: #eaf6ff;
+    --tarjeta: #ffffff;
+    --acento: #ff9f1c;
+    --texto: #1c1c1e;
+    --texto-secundario: #5c6b73;
+}
+
+body {
+    background-color: var(--fondo);
+}
+
+.buscador {
+    background-color: var(--tarjeta);
+    width: 90%;
+    height: 50px;
+    margin: auto;
+}
+
+.buscador input {
+    background-color: var(--tarjeta);
+    border: 1px solid var(--texto-secundario);
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 8px;
+}
+
+div {
+    background-color: var(--tarjeta);
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid var(--texto-secundario);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--texto);
+    font-size: 40px;
+}
+
+p {
+    color: var(--texto-secundario);
+    font-size: 30px;
+}

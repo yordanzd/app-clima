@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>App Clima</title>
+</head>
+
+<body>
+    <div class="buscador">
+        <input type="text" placeholder="Escribe una ciudad...">
+        <button>Buscar</button>
+    </div>
+
+    <section class="clima-card">
+        <div class="info-general">
+
+            <span class="etiqueta">Ciudad:</span>
+            <h2 class="ciudad"></h2>
+            <img class="icono" src="" alt="icono">
+        </div>
+
+        <div class="temperatura">
+            <span class="etiqueta">Temperatura Actual:</span>
+            <p class="temperatura-actual"></p>
+            <span class="etiqueta">Sensación Térmica:</span>
+            <p class="sensacion-termica"></p>
+            <span class="etiqueta">Temperatura Mínima:</span>
+            <p class="temperatura-minima"></p>
+            <span class="etiqueta">Temperatura Máxima:</span>
+            <p class="temperatura-maxima"></p>
+        </div>
+
+        <div class="clima-general">
+            <span class="etiqueta">Categoría General:</span>
+            <p class="categoria-general"></p>
+            <span class="etiqueta">Descripción:</span>
+            <p class="descripcion-detallada"></p>
+            <p class="codigo-icono"></p>
+        </div>
+
+        <div class="datos-atmosfericos">
+            <span class="etiqueta">Humedad:</span>
+            <p class="humedad"></p>
+            <span class="etiqueta">Presión Atmosférica:</span>
+            <p class="presion-atmosferica"></p>
+            <span class="etiqueta">Velocidad del viento:</span>
+            <p class="velocidad-viento"></p>
+            <span class="etiqueta">Dirección del viento:</span>
+            <p class="direccion-viento"></p>
+            <span class="etiqueta">Porcentaje de nubosidad:</span>
+            <p class="porcentaje-nubosidad"></p>
+            <span class="etiqueta">Visibilidad:</span>
+            <p class="visibilidad"></p>
+        </div>
+
+        <div class="tiempo">
+            <span class="etiqueta">Hora del amanecer:</span>
+            <p class="hora-amanecer"></p>
+            <span class="etiqueta">Hora del atardecer:</span>
+            <p class="hora-atardecer"></p>
+            <span class="etiqueta">Hora de la consulta:</span>
+            <p class="fecha-hora"></p>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
